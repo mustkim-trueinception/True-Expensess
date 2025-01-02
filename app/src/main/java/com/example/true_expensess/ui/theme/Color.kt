@@ -1,4 +1,4 @@
-package com.example.true_expensess.ui.theme
+package ai.truelink.app.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
