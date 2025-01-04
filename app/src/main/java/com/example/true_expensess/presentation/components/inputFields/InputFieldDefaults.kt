@@ -2,7 +2,6 @@ package ai.truelink.app.presentation.components.inputFields
 
 import ai.truelink.app.presentation.components.inputFields.InputFieldSize.MEDIUM
 import ai.truelink.app.presentation.components.inputFields.InputFieldSize.SMALL
-import ai.truelink.app.ui.customTheme.Theme
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.OutlinedTextFieldDefaults
@@ -11,6 +10,7 @@ import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
+import com.example.true_expensess.ui.customTheme.Theme
 
 /**
  * Size of the input field.

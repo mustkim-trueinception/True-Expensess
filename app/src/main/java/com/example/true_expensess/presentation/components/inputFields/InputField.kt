@@ -1,6 +1,5 @@
 package ai.truelink.app.presentation.components.inputFields
 
-import ai.truelink.app.ui.customTheme.Theme
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.interaction.MutableInteractionSource
@@ -35,6 +34,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
+import com.example.true_expensess.ui.customTheme.Theme
 
 enum class InputFieldVariant {
     STANDARD,

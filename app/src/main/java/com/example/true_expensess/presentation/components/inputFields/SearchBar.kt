@@ -2,7 +2,6 @@ package ai.truelink.app.presentation.components.inputFields
 
 import ai.truelink.app.presentation.components.buttons.CustomIconButton
 import ai.truelink.app.presentation.components.buttons.CustomIconButtonSize
-import ai.truelink.app.ui.customTheme.Theme
 import android.util.Log
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
@@ -26,7 +25,8 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import com.example.true_expensess.R
-import shortener.truelink.app.presentation.components.image.DynamicImage
+import com.example.true_expensess.presentation.components.image.DynamicImage
+import com.example.true_expensess.ui.customTheme.Theme
 import shortener.truelink.app.presentation.components.image.DynamicImageSource
 import shortener.truelink.app.presentation.components.image.ImageCustomization
 

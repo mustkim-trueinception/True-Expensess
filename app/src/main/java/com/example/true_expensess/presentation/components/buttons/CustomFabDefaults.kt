@@ -1,6 +1,5 @@
 package com.example.true_expensess.presentation.components.buttons
 
-import ai.truelink.app.ui.customTheme.Theme
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
@@ -21,6 +20,7 @@ import com.example.true_expensess.presentation.components.buttons.CustomFabDefau
 import com.example.true_expensess.presentation.components.buttons.CustomFabSize.Large
 import com.example.true_expensess.presentation.components.buttons.CustomFabSize.Medium
 import com.example.true_expensess.presentation.components.buttons.CustomFabSize.Small
+import com.example.true_expensess.ui.customTheme.Theme
 
 /**
  * Represents the color scheme for a Custom Floating Action Button (Fab) including states for default, hover, active, and disabled.

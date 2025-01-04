@@ -25,7 +25,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import com.example.true_expensess.R
-import shortener.truelink.app.presentation.components.image.DynamicImage
+import com.example.true_expensess.presentation.components.image.DynamicImage
 import shortener.truelink.app.presentation.components.image.DynamicImageSource
 import shortener.truelink.app.presentation.components.image.ImageCustomization
 
@@ -135,8 +135,7 @@ fun CustomFab(
                 content = {
                     /* icon */
                     DynamicImage(
-                        imageSource = icon,
-                        customization = iconCustomization.copy(
+                        icon, customization = iconCustomization.copy(
                             tint = contentColor
                         ),
 //                        modifier = Modifier
