@@ -5,7 +5,6 @@ import ai.truelink.app.presentation.components.buttons.CustomIconButtonColorVari
 import ai.truelink.app.presentation.components.buttons.CustomIconButtonDefaults
 import ai.truelink.app.presentation.components.buttons.CustomIconButtonShape
 import ai.truelink.app.presentation.components.buttons.CustomIconButtonSize
-import ai.truelink.app.ui.customTheme.Theme
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -26,6 +25,7 @@ import com.example.true_expensess.R
 import com.example.true_expensess.presentation.screens.accounts.components.AccountSummarySection
 import com.example.true_expensess.presentation.screens.accounts.components.AddNewAccountButton
 import com.example.true_expensess.presentation.screens.accounts.components.CustomCard
+import com.example.true_expensess.ui.customTheme.Theme
 import shortener.truelink.app.presentation.components.image.DynamicImageSource
 
 @OptIn(ExperimentalMaterial3Api::class)

@@ -1,6 +1,5 @@
 package ai.truelink.app.presentation.components.inputFields
 
-import ai.truelink.app.ui.customTheme.Theme
 import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.PickVisualMediaRequest
@@ -31,7 +30,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import shortener.truelink.app.presentation.components.image.DynamicImage
+import com.example.true_expensess.presentation.components.image.DynamicImage
+import com.example.true_expensess.ui.customTheme.Theme
 import shortener.truelink.app.presentation.components.image.DynamicImageSource
 import shortener.truelink.app.presentation.components.image.ImageCustomization
 
