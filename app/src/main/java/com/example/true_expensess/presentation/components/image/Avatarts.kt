@@ -1,9 +1,6 @@
-package ai.truelink.app.presentation.components.images
+package com.example.true_expensess.presentation.components.image
 
-import ai.truelink.app.presentation.components.images.AvatarSize.LARGE
-import ai.truelink.app.presentation.components.images.AvatarSize.MEDIUM
-import ai.truelink.app.presentation.components.images.AvatarSize.SMALL
-import ai.truelink.app.ui.customTheme.Theme
+import com.example.true_expensess.ui.customTheme.Theme
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -19,9 +16,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import shortener.truelink.app.presentation.components.bages.BadgeSize
-import shortener.truelink.app.presentation.components.bages.CustomBadge
-import shortener.truelink.app.presentation.components.image.DynamicImage
+import com.example.true_expensess.presentation.components.badges.BadgeSize
+import com.example.true_expensess.presentation.components.badges.CustomBadge
+import com.example.true_expensess.presentation.components.image.AvatarSize.LARGE
+import com.example.true_expensess.presentation.components.image.AvatarSize.MEDIUM
+import com.example.true_expensess.presentation.components.image.AvatarSize.SMALL
 import shortener.truelink.app.presentation.components.image.DynamicImageSource
 import shortener.truelink.app.presentation.components.image.ImageCustomization
 

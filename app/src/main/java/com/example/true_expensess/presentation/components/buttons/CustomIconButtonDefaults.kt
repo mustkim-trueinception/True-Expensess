@@ -17,7 +17,7 @@ import ai.truelink.app.presentation.components.buttons.CustomIconButtonSize.LARG
 import ai.truelink.app.presentation.components.buttons.CustomIconButtonSize.MEDIUM
 import ai.truelink.app.presentation.components.buttons.CustomIconButtonSize.SMALL
 import ai.truelink.app.presentation.components.buttons.CustomIconButtonSize.XSMALL
-import ai.truelink.app.ui.customTheme.Theme
+import com.example.true_expensess.ui.customTheme.Theme
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Stable

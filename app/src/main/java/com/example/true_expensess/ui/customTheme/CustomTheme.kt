@@ -1,4 +1,4 @@
-package ai.truelink.app.ui.customTheme
+package com.example.true_expensess.ui.customTheme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.runtime.Composable

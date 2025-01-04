@@ -1,4 +1,4 @@
-package ai.truelink.app.ui.theme
+package com.example.true_expensess.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -37,7 +37,7 @@ onSurface = Color(0xFF1C1B1F),
 )
 
 @Composable
-fun TruelinkAppRev3Theme(
+fun TrueExpensesTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
