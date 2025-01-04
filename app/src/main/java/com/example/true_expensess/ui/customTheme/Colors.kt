@@ -1,4 +1,4 @@
-package ai.truelink.app.ui.customTheme
+package com.example.true_expensess.ui.customTheme
 
 import androidx.compose.ui.graphics.Color
 
@@ -661,93 +661,93 @@ object LightThemeColors : ThemeColors {
     }
     override val Severity: ActionSeverityColors = object : ActionSeverityColors {
         override val Safe: SeverityActionColors = object : SeverityActionColors {
-            override val Main: Color = SystemColors.Severity.Safe500
-            override val Hover: Color = SystemColors.Severity.Safe700
-            override val Pressed: Color = SystemColors.Severity.Safe800
-            override val Focused: Color = SystemColors.Severity.Safe700
-            override val Disabled: Color = SystemColors.Severity.Safe300
+            override val Main: Color = SeverityColors.Safe500
+            override val Hover: Color = SeverityColors.Safe700
+            override val Pressed: Color = SeverityColors.Safe800
+            override val Focused: Color = SeverityColors.Safe700
+            override val Disabled: Color = SeverityColors.Safe300
 
             override val TextMain: Color = Color.White
             override val TextHover: Color = BaseColors.Neutral50
-            override val TextPressed: Color = SystemColors.Severity.Safe100
+            override val TextPressed: Color = SeverityColors.Safe100
             override val TextFocused: Color = BaseColors.Neutral50
-            override val TextDisabled: Color = SystemColors.Severity.Safe50
+            override val TextDisabled: Color = SeverityColors.Safe50
 
             override val Ghosted: GhostedColors = object : GhostedColors {
-                override val Main: Color = SystemColors.Severity.Safe50
-                override val TextMain: Color = SystemColors.Severity.Safe900
+                override val Main: Color = SeverityColors.Safe50
+                override val TextMain: Color = SeverityColors.Safe900
             }
         }
         override val Warning: SeverityActionColors = object : SeverityActionColors {
-            override val Main: Color = SystemColors.Severity.Warning500
-            override val Hover: Color = SystemColors.Severity.Warning700
-            override val Pressed: Color = SystemColors.Severity.Warning800
-            override val Focused: Color = SystemColors.Severity.Warning700
-            override val Disabled: Color = SystemColors.Severity.Warning300
+            override val Main: Color = SeverityColors.Warning500
+            override val Hover: Color = SeverityColors.Warning700
+            override val Pressed: Color = SeverityColors.Warning800
+            override val Focused: Color = SeverityColors.Warning700
+            override val Disabled: Color = SeverityColors.Warning300
 
             override val TextMain: Color = Color.White
             override val TextHover: Color = BaseColors.Neutral50
-            override val TextPressed: Color = SystemColors.Severity.Warning100
+            override val TextPressed: Color = SeverityColors.Warning100
             override val TextFocused: Color = BaseColors.Neutral50
-            override val TextDisabled: Color = SystemColors.Severity.Warning50
+            override val TextDisabled: Color = SeverityColors.Warning50
 
             override val Ghosted: GhostedColors = object : GhostedColors {
-                override val Main: Color = SystemColors.Severity.Warning100
-                override val TextMain: Color = SystemColors.Severity.Warning900
+                override val Main: Color = SeverityColors.Warning100
+                override val TextMain: Color = SeverityColors.Warning900
             }
         }
         override val Medium: SeverityActionColors = object : SeverityActionColors {
-            override val Main: Color = SystemColors.Severity.Medium500
-            override val Hover: Color = SystemColors.Severity.Medium700
-            override val Pressed: Color = SystemColors.Severity.Medium800
-            override val Focused: Color = SystemColors.Severity.Medium700
-            override val Disabled: Color = SystemColors.Severity.Medium300
+            override val Main: Color = SeverityColors.Medium500
+            override val Hover: Color = SeverityColors.Medium700
+            override val Pressed: Color = SeverityColors.Medium800
+            override val Focused: Color = SeverityColors.Medium700
+            override val Disabled: Color = SeverityColors.Medium300
 
             override val TextMain: Color = Color.White
             override val TextHover: Color = BaseColors.Neutral50
-            override val TextPressed: Color = SystemColors.Severity.Medium100
+            override val TextPressed: Color = SeverityColors.Medium100
             override val TextFocused: Color = BaseColors.Neutral50
-            override val TextDisabled: Color = SystemColors.Severity.Medium50
+            override val TextDisabled: Color = SeverityColors.Medium50
 
             override val Ghosted: GhostedColors = object : GhostedColors {
-                override val Main: Color = SystemColors.Severity.Medium100
-                override val TextMain: Color = SystemColors.Severity.Medium900
+                override val Main: Color = SeverityColors.Medium100
+                override val TextMain: Color = SeverityColors.Medium900
             }
         }
         override val Danger: SeverityActionColors = object : SeverityActionColors {
-            override val Main: Color = SystemColors.Severity.Danger500
-            override val Hover: Color = SystemColors.Severity.Danger700
-            override val Pressed: Color = SystemColors.Severity.Danger800
-            override val Focused: Color = SystemColors.Severity.Danger700
-            override val Disabled: Color = SystemColors.Severity.Danger300
+            override val Main: Color = SeverityColors.Danger500
+            override val Hover: Color = SeverityColors.Danger700
+            override val Pressed: Color = SeverityColors.Danger800
+            override val Focused: Color = SeverityColors.Danger700
+            override val Disabled: Color = SeverityColors.Danger300
 
             override val TextMain: Color = Color.White
             override val TextHover: Color = BaseColors.Neutral50
-            override val TextPressed: Color = SystemColors.Severity.Danger100
+            override val TextPressed: Color = SeverityColors.Danger100
             override val TextFocused: Color = BaseColors.Neutral50
-            override val TextDisabled: Color = SystemColors.Severity.Danger50
+            override val TextDisabled: Color = SeverityColors.Danger50
 
             override val Ghosted: GhostedColors = object : GhostedColors {
-                override val Main: Color = SystemColors.Severity.Danger100
-                override val TextMain: Color = SystemColors.Severity.Danger900
+                override val Main: Color = SeverityColors.Danger100
+                override val TextMain: Color = SeverityColors.Danger900
             }
         }
         override val Critical: SeverityActionColors = object : SeverityActionColors {
-            override val Main: Color = SystemColors.Severity.Critical500
-            override val Hover: Color = SystemColors.Severity.Critical700
-            override val Pressed: Color = SystemColors.Severity.Critical800
-            override val Focused: Color = SystemColors.Severity.Critical600
-            override val Disabled: Color = SystemColors.Severity.Critical300
+            override val Main: Color = SeverityColors.Critical500
+            override val Hover: Color = SeverityColors.Critical700
+            override val Pressed: Color = SeverityColors.Critical800
+            override val Focused: Color = SeverityColors.Critical600
+            override val Disabled: Color = SeverityColors.Critical300
 
             override val TextMain: Color = Color.White
             override val TextHover: Color = BaseColors.Neutral50
-            override val TextPressed: Color = SystemColors.Severity.Critical100
+            override val TextPressed: Color = SeverityColors.Critical100
             override val TextFocused: Color = BaseColors.Neutral50
-            override val TextDisabled: Color = SystemColors.Severity.Critical50
+            override val TextDisabled: Color = SeverityColors.Critical50
 
             override val Ghosted: GhostedColors = object : GhostedColors {
-                override val Main: Color = SystemColors.Severity.Critical100
-                override val TextMain: Color = SystemColors.Severity.Critical900
+                override val Main: Color = SeverityColors.Critical100
+                override val TextMain: Color = SeverityColors.Critical900
             }
 
         }
@@ -879,93 +879,93 @@ object DarkThemeColors : ThemeColors {
     }
     override val Severity: ActionSeverityColors = object : ActionSeverityColors {
         override val Safe: SeverityActionColors = object : SeverityActionColors {
-            override val Main: Color = SystemColors.Severity.Safe500
-            override val Hover: Color = SystemColors.Severity.Safe600
-            override val Pressed: Color = SystemColors.Severity.Safe700
-            override val Focused: Color = SystemColors.Severity.Safe600
-            override val Disabled: Color = SystemColors.Severity.Safe900
+            override val Main: Color = SeverityColors.Safe500
+            override val Hover: Color = SeverityColors.Safe600
+            override val Pressed: Color = SeverityColors.Safe700
+            override val Focused: Color = SeverityColors.Safe600
+            override val Disabled: Color = SeverityColors.Safe900
 
             override val TextMain: Color = Color.White
             override val TextHover: Color = BaseColors.Neutral50
-            override val TextPressed: Color = SystemColors.Severity.Safe100
+            override val TextPressed: Color = SeverityColors.Safe100
             override val TextFocused: Color = BaseColors.Neutral50
-            override val TextDisabled: Color = SystemColors.Severity.Safe600
+            override val TextDisabled: Color = SeverityColors.Safe600
 
             override val Ghosted: GhostedColors = object : GhostedColors {
-                override val Main: Color = SystemColors.Severity.Safe900
-                override val TextMain: Color = SystemColors.Severity.Safe50
+                override val Main: Color = SeverityColors.Safe900
+                override val TextMain: Color = SeverityColors.Safe50
             }
         }
         override val Warning: SeverityActionColors = object : SeverityActionColors {
-            override val Main: Color = SystemColors.Severity.Warning500
-            override val Hover: Color = SystemColors.Severity.Warning600
-            override val Pressed: Color = SystemColors.Severity.Warning700
-            override val Focused: Color = SystemColors.Severity.Warning600
-            override val Disabled: Color = SystemColors.Severity.Warning900
+            override val Main: Color = SeverityColors.Warning500
+            override val Hover: Color = SeverityColors.Warning600
+            override val Pressed: Color = SeverityColors.Warning700
+            override val Focused: Color = SeverityColors.Warning600
+            override val Disabled: Color = SeverityColors.Warning900
 
             override val TextMain: Color = Color.White
             override val TextHover: Color = BaseColors.Neutral50
-            override val TextPressed: Color = SystemColors.Severity.Warning100
+            override val TextPressed: Color = SeverityColors.Warning100
             override val TextFocused: Color = BaseColors.Neutral50
-            override val TextDisabled: Color = SystemColors.Severity.Warning600
+            override val TextDisabled: Color = SeverityColors.Warning600
 
             override val Ghosted: GhostedColors = object : GhostedColors {
-                override val Main: Color = SystemColors.Severity.Warning900
-                override val TextMain: Color = SystemColors.Severity.Warning100
+                override val Main: Color = SeverityColors.Warning900
+                override val TextMain: Color = SeverityColors.Warning100
             }
         }
         override val Medium: SeverityActionColors = object : SeverityActionColors {
-            override val Main: Color = SystemColors.Severity.Medium500
-            override val Hover: Color = SystemColors.Severity.Medium600
-            override val Pressed: Color = SystemColors.Severity.Medium700
-            override val Focused: Color = SystemColors.Severity.Medium600
-            override val Disabled: Color = SystemColors.Severity.Medium900
+            override val Main: Color = SeverityColors.Medium500
+            override val Hover: Color = SeverityColors.Medium600
+            override val Pressed: Color = SeverityColors.Medium700
+            override val Focused: Color = SeverityColors.Medium600
+            override val Disabled: Color = SeverityColors.Medium900
 
             override val TextMain: Color = Color.White
             override val TextHover: Color = BaseColors.Neutral50
-            override val TextPressed: Color = SystemColors.Severity.Medium100
+            override val TextPressed: Color = SeverityColors.Medium100
             override val TextFocused: Color = BaseColors.Neutral50
-            override val TextDisabled: Color = SystemColors.Severity.Medium600
+            override val TextDisabled: Color = SeverityColors.Medium600
 
             override val Ghosted: GhostedColors = object : GhostedColors {
-                override val Main: Color = SystemColors.Severity.Medium900
-                override val TextMain: Color = SystemColors.Severity.Medium100
+                override val Main: Color = SeverityColors.Medium900
+                override val TextMain: Color = SeverityColors.Medium100
             }
         }
         override val Danger: SeverityActionColors = object : SeverityActionColors {
-            override val Main: Color = SystemColors.Severity.Danger500
-            override val Hover: Color = SystemColors.Severity.Danger600
-            override val Pressed: Color = SystemColors.Severity.Danger700
-            override val Focused: Color = SystemColors.Severity.Danger600
-            override val Disabled: Color = SystemColors.Severity.Danger900
+            override val Main: Color = SeverityColors.Danger500
+            override val Hover: Color = SeverityColors.Danger600
+            override val Pressed: Color = SeverityColors.Danger700
+            override val Focused: Color = SeverityColors.Danger600
+            override val Disabled: Color = SeverityColors.Danger900
 
             override val TextMain: Color = Color.White
             override val TextHover: Color = BaseColors.Neutral50
-            override val TextPressed: Color = SystemColors.Severity.Danger100
+            override val TextPressed: Color = SeverityColors.Danger100
             override val TextFocused: Color = BaseColors.Neutral50
-            override val TextDisabled: Color = SystemColors.Severity.Danger600
+            override val TextDisabled: Color = SeverityColors.Danger600
 
             override val Ghosted: GhostedColors = object : GhostedColors {
-                override val Main: Color = SystemColors.Severity.Danger900
-                override val TextMain: Color = SystemColors.Severity.Danger100
+                override val Main: Color = SeverityColors.Danger900
+                override val TextMain: Color = SeverityColors.Danger100
             }
         }
         override val Critical: SeverityActionColors = object : SeverityActionColors {
-            override val Main: Color = SystemColors.Severity.Critical500
-            override val Hover: Color = SystemColors.Severity.Critical600
-            override val Pressed: Color = SystemColors.Severity.Critical700
-            override val Focused: Color = SystemColors.Severity.Critical600
-            override val Disabled: Color = SystemColors.Severity.Critical900
+            override val Main: Color = SeverityColors.Critical500
+            override val Hover: Color = SeverityColors.Critical600
+            override val Pressed: Color = SeverityColors.Critical700
+            override val Focused: Color = SeverityColors.Critical600
+            override val Disabled: Color = SeverityColors.Critical900
 
             override val TextMain: Color = Color.White
             override val TextHover: Color = BaseColors.Neutral50
-            override val TextPressed: Color = SystemColors.Severity.Critical100
+            override val TextPressed: Color = SeverityColors.Critical100
             override val TextFocused: Color = BaseColors.Neutral50
-            override val TextDisabled: Color = SystemColors.Severity.Critical600
+            override val TextDisabled: Color = SeverityColors.Critical600
 
             override val Ghosted: GhostedColors = object : GhostedColors {
-                override val Main: Color = SystemColors.Severity.Critical900
-                override val TextMain: Color = SystemColors.Severity.Critical100
+                override val Main: Color = SeverityColors.Critical900
+                override val TextMain: Color = SeverityColors.Critical100
             }
         }
 

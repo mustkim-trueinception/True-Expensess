@@ -1,4 +1,4 @@
-package shortener.truelink.app.presentation.components.bages
+package com.example.true_expensess.presentation.components.badges
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement

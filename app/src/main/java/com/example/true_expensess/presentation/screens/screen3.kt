@@ -1,12 +1,6 @@
 package com.example.true_expensess.presentation.screens
 
 
-import ai.truelink.app.R
-import ai.truelink.app.presentation.components.images.DynamicImage
-import ai.truelink.app.presentation.components.images.DynamicImageSource
-import ai.truelink.app.presentation.components.images.ImageCustomization
-import ai.truelink.app.ui.customTheme.Theme
-import ai.truelink.app.utils.cleanNavigate
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -25,10 +19,14 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.example.true_expensess.R
+import com.example.true_expensess.presentation.components.image.DynamicImage
+import com.example.true_expensess.ui.customTheme.Theme
 import kotlinx.serialization.Serializable
+import shortener.truelink.app.presentation.components.image.DynamicImageSource
+import shortener.truelink.app.presentation.components.image.ImageCustomization
 
-/* Application routes */
-// Define a home route that doesn't take any arguments
+
 @Serializable
 object DashboardRoute : Route
 
@@ -45,31 +43,32 @@ private val DashboardNavItems = listOf(
     NavItemData(
         route = DashboardRoutes.HomeRoute,
         label = "Dashboard",
-        inactiveIcon = DynamicImageSource.Local(R.drawable.ic_dashboard, asVector = true),
-        activeIcon = DynamicImageSource.Local(R.drawable.ic_dashboard, asVector = true),
+        inactiveIcon = DynamicImageSource.Local(R.drawable.ic_fallback_image, asVector = true),
+        activeIcon = DynamicImageSource.Local(R.drawable.ic_fallback_image, asVector = true),
     ),
     NavItemData(
         route = DashboardRoutes.BulkScansRoute,
         label = "Bulk Scans",
-        inactiveIcon = DynamicImageSource.Local(R.drawable.ic_bulk_scan, asVector = true),
-        activeIcon = DynamicImageSource.Local(R.drawable.ic_bulk_scan, asVector = true),
+        inactiveIcon = DynamicImageSource.Local(R.drawable.ic_fallback_image, asVector = true),
+        activeIcon = DynamicImageSource.Local(R.drawable.ic_fallback_image, asVector = true),
     ),
     NavItemData(
         route = DashboardRoutes.ThreatControlRoute,
         label = "Threat Control",
-        inactiveIcon = DynamicImageSource.Local(R.drawable.ic_threat_control, asVector = true),
-        activeIcon = DynamicImageSource.Local(R.drawable.ic_threat_control, asVector = true),
+        inactiveIcon = DynamicImageSource.Local(R.drawable.ic_fallback_image, asVector = true),
+        activeIcon = DynamicImageSource.Local(R.drawable.ic_fallback_image, asVector = true),
     ),
     NavItemData(
         route = DashboardRoutes.VpnFirewallRoute,
         label = "Firewall",
-        inactiveIcon = DynamicImageSource.Local(R.drawable.ic_vpn, asVector = true),
-        activeIcon = DynamicImageSource.Local(R.drawable.ic_vpn, asVector = true),
+        inactiveIcon = DynamicImageSource.Local(R.drawable.ic_fallback_image, asVector = true),
+        activeIcon = DynamicImageSource.Local(R.drawable.ic_fallback_image, asVector = true),
     )
 )
 
 @Composable
 fun Dashboard(
+
     navigateTo: (Route) -> Unit = {}
 ) {
     val navController = rememberNavController()
@@ -80,18 +79,15 @@ fun Dashboard(
 
             Column {
                 Box(modifier = Modifier.weight(1f)) {
-//                    DashboardNavGraph(
-//                        widthSizeClass = widthSizeClass,
-//                        navHostController = navController,
-//                        navigateTo = navigateTo
-//                    )
+                    DashboardNavGraph(
+                        navHostController = navController,
+                        navigateTo = navigateTo
+                    )
                 }
                 DashboardBottomNavBar(currentRoute, navController)
             }
 
         }
-
-
 
 
 @Composable

@@ -1,7 +1,9 @@
 plugins {
+    id("kotlin-kapt")
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    kotlin("plugin.serialization") version "2.1.0"
 }
 
 android {
@@ -40,11 +42,18 @@ android {
 }
 
 dependencies {
-
+    /* coil */
+    implementation(libs.coil.compose)
+    implementation(libs.coil.svg)
+    implementation(libs.coil.gif)
+    implementation(libs.gson)
 
     /*Navigation*/
     implementation(libs.androidx.navigation.compose)
+
+    /* Serialization */
     implementation(libs.kotlinx.serialization.json)
+    implementation(libs.androidx.hilt.navigation.compose)
 
 
     implementation(libs.androidx.core.ktx)

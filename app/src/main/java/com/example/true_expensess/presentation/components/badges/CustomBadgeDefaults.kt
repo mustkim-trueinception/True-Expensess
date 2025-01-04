@@ -1,6 +1,7 @@
-package shortener.truelink.app.presentation.components.bages
+package com.example.true_expensess.presentation.components.badges
 
 
+import com.example.true_expensess.ui.customTheme.Theme
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
@@ -12,7 +13,20 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import shortener.truelink.app.ui.theme.customTheme.Theme
+import com.example.true_expensess.presentation.components.badges.BadgeSize.LARGE
+import com.example.true_expensess.presentation.components.badges.BadgeSize.MEDIUM
+import com.example.true_expensess.presentation.components.badges.BadgeSize.SMALL
+import com.example.true_expensess.presentation.components.badges.BadgeSize.XSMALL
+import com.example.true_expensess.presentation.components.badges.CustomBadgeColorVariant.ERROR
+import com.example.true_expensess.presentation.components.badges.CustomBadgeColorVariant.INFO
+import com.example.true_expensess.presentation.components.badges.CustomBadgeColorVariant.PRIMARY
+import com.example.true_expensess.presentation.components.badges.CustomBadgeColorVariant.SECONDARY
+import com.example.true_expensess.presentation.components.badges.CustomBadgeColorVariant.SUCCESS
+import com.example.true_expensess.presentation.components.badges.CustomBadgeColorVariant.SURFACE
+import com.example.true_expensess.presentation.components.badges.CustomBadgeColorVariant.WARNING
+import com.example.true_expensess.presentation.components.badges.CustomBadgeDefaults.colors
+import com.example.true_expensess.presentation.components.badges.CustomBadgeDefaults.dynamicProperties
+import com.example.true_expensess.presentation.components.badges.CustomBadgeDefaults.shape
 
 
 /**

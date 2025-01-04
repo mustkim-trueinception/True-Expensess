@@ -1,6 +1,6 @@
 package shortener.truelink.app.presentation.components.buttons
 
-import ai.truelink.app.ui.customTheme.Theme
+import com.example.true_expensess.ui.customTheme.Theme
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.ButtonColors

@@ -1,4 +1,4 @@
-package shortener.truelink.app.presentation.components.image
+package com.example.true_expensess.presentation.components.image
 
 import android.util.Log
 import androidx.compose.foundation.Image
@@ -20,6 +20,8 @@ import coil.compose.AsyncImage
 import coil.compose.rememberAsyncImagePainter
 import coil.decode.SvgDecoder
 import coil.request.ImageRequest
+import shortener.truelink.app.presentation.components.image.DynamicImageSource
+import shortener.truelink.app.presentation.components.image.ImageCustomization
 
 
 /**

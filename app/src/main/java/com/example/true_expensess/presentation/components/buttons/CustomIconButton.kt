@@ -13,7 +13,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.semantics.Role
-import shortener.truelink.app.presentation.components.image.DynamicImage
+import com.example.true_expensess.presentation.components.image.DynamicImage
 import shortener.truelink.app.presentation.components.image.DynamicImageSource
 import shortener.truelink.app.presentation.components.image.ImageCustomization
 
