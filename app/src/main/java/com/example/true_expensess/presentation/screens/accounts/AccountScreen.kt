@@ -30,21 +30,20 @@ import shortener.truelink.app.presentation.components.image.DynamicImageSource
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AccountsScreen() {
-    // Step 1: Define a data class for Account
+fun AccountsScreen(modifier: Modifier = Modifier) {
+    /* Data Model for Account */
     data class Account(
         val name: String,
         val balance: Double,
-        val icon: Int // Replace with actual drawable resource ID
+        val icon: Int
     )
 
-    // Step 2: Hardcoded sample account list
+    /* sample for account list */
     val accountsList = listOf(
         Account(name = "Card", balance = 0.0, icon = R.drawable.ic_paypal),
         Account(name = "Cash", balance = 0.0, icon = R.drawable.ic_cash),
         Account(name = "Savings", balance = 0.0, icon = R.drawable.ic_newvisa)
     )
-
 
     Scaffold(
         topBar = {
