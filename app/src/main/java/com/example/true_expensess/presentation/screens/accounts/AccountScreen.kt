@@ -6,6 +6,7 @@ import ai.truelink.app.presentation.components.buttons.CustomIconButtonDefaults
 import ai.truelink.app.presentation.components.buttons.CustomIconButtonShape
 import ai.truelink.app.presentation.components.buttons.CustomIconButtonSize
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -30,7 +31,10 @@ import shortener.truelink.app.presentation.components.image.DynamicImageSource
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AccountsScreen(modifier: Modifier = Modifier) {
+fun AccountsScreen(
+    modifier: Modifier = Modifier,
+    contentPadding: PaddingValues
+) {
     /* Data Model for Account */
     data class Account(
         val name: String,
@@ -44,6 +48,7 @@ fun AccountsScreen(modifier: Modifier = Modifier) {
         Account(name = "Cash", balance = 0.0, icon = R.drawable.ic_cash),
         Account(name = "Savings", balance = 0.0, icon = R.drawable.ic_newvisa)
     )
+
 
     Scaffold(
         topBar = {
